@@ -1,9 +1,10 @@
 # gitskills
 git 的一些技能
 
-##常用git命令
+## 常用git命令
 
-###创建版本库
+### 创建版本库
+
 首先，选择一个合适的地方，创建一个空目录：
 $ mkdir learngit
 $ cd learngit
@@ -13,7 +14,7 @@ pwd命令用于显示当前目录。在我的Mac上，这个仓库位于/Users/q
 $ git init
 Initialized empty Git repository in /Users/qiangqiangwen/learngit/.git/
 
-把一个文件放到Git仓库只需要两步。
+### 把一个文件放到Git仓库只需要两步。
 
 第一步，用命令git add告诉Git，把文件添加到仓库：
 $ git add readme.txt
