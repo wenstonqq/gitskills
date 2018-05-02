@@ -68,3 +68,12 @@ $ git commit -m "wrote a readme file"
 - git tag -s <tagname> -m "blablabla..."可以用PGP签名标签；
 
 - 命令git tag可以查看所有标签。
+
+### 操作标签
+- 命令git push origin <tagname>可以推送一个本地标签；
+
+- 命令git push origin --tags可以推送全部未推送过的本地标签；
+
+- 命令git tag -d <tagname>可以删除一个本地标签；
+
+- 命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
