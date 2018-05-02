@@ -77,3 +77,8 @@ $ git commit -m "wrote a readme file"
 - 命令git tag -d <tagname>可以删除一个本地标签；
 
 - 命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
+
+### 忽略特殊文件
+- 忽略某些文件时，需要编写.gitignore；
+
+- .gitignore文件本身要放到版本库里，并且可以对.gitignore做版本管理！
